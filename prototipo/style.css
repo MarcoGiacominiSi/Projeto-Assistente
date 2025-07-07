@@ -1,0 +1,100 @@
+/* Estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Título centralizado */
+h1 {
+  text-align: center;
+}
+
+/* Caixa do chat */
+.chatbox {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Área onde ficam as mensagens */
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
+
+/* Cada mensagem */
+.message {
+  margin: 5px 0;
+}
+
+/* Mensagens do usuário (azul, à direita) */
+.user {
+  text-align: right;
+  color: blue;
+}
+
+/* Mensagens do bot (verde, à esquerda) */
+.bot {
+  text-align: left;
+  color: green;
+}
+
+/* Área de input e botão */
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+/* Campo de digitar texto */
+input[type=text] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Botão de enviar */
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+/* Tabela da agenda */
+.calendar {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Tabela com horários */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Cada célula da tabela */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Horário que foi marcado (estilizado com verde claro) */
+.booked {
+  background: #d4edda;
+  color: #155724;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assistente da Barbearia</title>
+  
+  <!-- Link para o CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Assistente Virtual da Barbearia</h1>
+
+  <!-- Caixa de chat -->
+  <div class="chatbox">
+    <div class="messages" id="messages"></div>
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Digite sua mensagem aqui..." />
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+
+  <!-- Calendário com horários disponíveis -->
+  <div class="calendar">
+    <h2>Agenda do Dia</h2>
+    <table>
+      <tr>
+        <td id="slot1">14h</td>
+        <td id="slot2">15h</td>
+        <td id="slot3">17h</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Link para o JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
