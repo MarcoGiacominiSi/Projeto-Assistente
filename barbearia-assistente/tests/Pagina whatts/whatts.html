@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almeida Barbearia - WhatsApp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.chat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-7N4vf2+qA5WS+8aLPKb7D4F3iYGMNQ2X9JQBLJQ4v8K5mVyo1xY5OGTvbXkloM7Jw3r3Lb1Mxgf1kT9j8nFvZQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+  <div class="whatsapp-simulador">
+    <div class="sidebar">
+      <div class="sidebar-header">Conversas</div>
+      <div class="contact">Almeida Barbearia</div>
+    </div>
+    <div class="chat">
+      <div class="chat-header">Almeida Barbearia</div>
+      <div class="chat-body" id="chatBody">
+        <div class="notification" id="notificacao">
+          As mensagens que você enviar e as ligações que você fizer nesta conversa estão protegidas com criptografia de ponta-a-ponta. Clique para mais informações.
+        </div>
+      </div>
+      <div class="chat-footer">
+        <input type="text" id="mensagemInput" placeholder="Digite uma mensagem...">
+        <button onclick="enviarMensagem()">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.chat.js"></script>
 </body>
 </html>
